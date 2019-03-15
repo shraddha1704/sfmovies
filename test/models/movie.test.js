@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const Movie = require('../../lib/models/movie');
 
