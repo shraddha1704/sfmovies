@@ -13,7 +13,6 @@ describe('movie validator', () => {
       const result = Joi.validate(payload, MovieValidator);
 
       expect(result.error.details[0].path[0]).to.eql('title');
-
       expect(result.error.details[0].type).to.eql('any.required');
     });
 
