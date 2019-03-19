@@ -11,8 +11,7 @@ describe('movies integration', () => {
         url: '/movies',
         method: 'POST',
         payload: {
-          title: 'Volver',
-          name: 'Volver'
+          title: 'Volver'
         }
       });
 
